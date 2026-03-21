@@ -1,0 +1,11 @@
+
+{
+  "name": "frontend",
+  "scripts": { "dev": "next dev" },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "^3.4.0"
+  }
+}
