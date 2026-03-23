@@ -20,7 +20,7 @@
   const server = http.createServer(app);
   const wss = new WebSocketServer({ server });
   
-  const DEX_URL = "https://api.dexscreener.com/latest/dex/pairs/solana";
+  const DEX_URL = "https://api.dexscreener.com/latest/dex/search?q=raydium";
   
   async function fetchPairs() {
     const res = await axios.get(DEX_URL);
